@@ -7,7 +7,7 @@ A small demonstration (the actual result is much larger):
 
 This repository is split into two parts: 
 
-1) Webserver (PHP) scripts that shows the latest timelapse in a HTML 5 video element
+1) Webserver (PHP) script that shows the latest timelapse video in a HTML 5 video element
 2) Timelapse device (Linux) with the Python code that captures photos during the day, and generates a timelapse at the end of it.
 
 ## Requirements
