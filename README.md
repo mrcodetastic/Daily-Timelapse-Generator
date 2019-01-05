@@ -1,5 +1,5 @@
 # Daily Timelapse Generator
-Who doesn't want to use an Old Webcam + Raspberry Pi Zero (or equivalent) to generate a timelapse of the world whilst you're stuck in an office.
+Who doesn't want to use an Old Webcam + Raspberry Pi Zero (or equivalent) to generate a timelapse of the world whilst stuck in an office.
 
 A small demonstration (the actual result is much larger):
 
