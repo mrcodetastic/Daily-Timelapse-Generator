@@ -32,11 +32,12 @@ This repository is split into two parts:
 You are most likely to have issues if the webcam isn't supported by Linux. Any decent Logitech or generic Chinese Webcam off eBay should be supported by Linux. Please check this before you buy. 
 
 If you plug in a webcam to your Linux device's USB port you can double check by typing:
-` lsusb
+``` 
+lsusb
 Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 003 Device 002: ID 046d:0809 Logitech, Inc. Webcam Pro 9000
-`
+```
 You can see above appears to be detected, you can get the device address by typing:
-`ls -ltrh /dev/video*``
+`ls -ltrh /dev/video*`
 
 If you have one webcam the device address will generally always be /dev/video0 
