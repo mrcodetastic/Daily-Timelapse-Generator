@@ -2,6 +2,7 @@
 Who doesn't want to use an Old Webcam + Raspberry Pi Zero (or equivalent) to generate a timelapse of the world whilst you're stuck in an office.
 
 A small demonstration (the actual result is much larger):
+
 ![It's better on the big screen](timelapse-demo.gif) 
 
 This repository is split into two parts: 
