@@ -15,8 +15,8 @@ This repository is split into two parts:
 3) The Linux instance will need the following installed: fswebcam, ffmpeg, run-one, python3, bash etc.
 
 ## Installation
-1) Copy the stuff in the 'public_html' to a PHP enabled webserver, make sure the that contains this code is accessable by an FTP account
-2) Copy the stuff in the 'python' folder to a folder on your Linux instance. Ensure this folder is writable by the user account that owns the scripts. 
+1) Copy the stuff in the 'public_html' to a PHP enabled webserver, make sure the that contains this code is accessible by an FTP account
+2) Copy the stuff in the 'python' folder to a folder on your Linux instance. Ensure this folder is writeable by the user account that owns the scripts. 
 3) Adjust the configuration settings in config.py
 4) Add something along the lines of the following to your crontab (preferably your local user based one, which can be adjusted by typing 'crontab -u <your_account> -e':
 
@@ -24,7 +24,7 @@ This repository is split into two parts:
 2 * * * * <your_account> run-one /home/<your_account>/timelapse-python-folder/capture_loop.py &> /dev/null
 `
 ## Troubleshooting
-You are most likely to have issues if the webcam isn't supported by Linux. Any decent Logitech or generic Chinese Webcam off ebay should be supported by Linux. Please check this before you buy. 
+You are most likely to have issues if the webcam isn't supported by Linux. Any decent Logitech or generic Chinese Webcam off eBay should be supported by Linux. Please check this before you buy. 
 
 If you plug in a webcam to your Linux device's USB port you can double check by typing:
 ` lsusb
