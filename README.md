@@ -24,10 +24,10 @@ This repository is split into two parts:
 3) Adjust the configuration settings in config.py
 4) Add something along the lines of the following to your crontab (preferably your local user based one, which can be adjusted by typing 'crontab -u <your_account> -e':
 
-`# Every 2 minutes past the hour check to see that the webcam script is running
-
+```
+# Every 2 minutes past the hour check to see that the webcam script is running
 2 * * * * <your_account> run-one /home/<your_account>/timelapse-python-folder/capture_loop.py &> /dev/null
-`
+```
 ## Troubleshooting
 You are most likely to have issues if the webcam isn't supported by Linux. Any decent Logitech or generic Chinese Webcam off eBay should be supported by Linux. Please check this before you buy. 
 
