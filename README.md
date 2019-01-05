@@ -1,6 +1,9 @@
 # Daily Timelapse Generator
 Who doesn't want to use an Old Webcam + Raspberry Pi Zero (or equivalent) to generate a timelapse of the world whilst you're stuck in an office.
 
+A small demonstration (the actual result is much larger):
+![It's better on the big screen](timelapse-demo.gif) 
+
 This repository is split into two parts: 
 
 1) Webserver (PHP) scripts that shows the latest timelapse in a HTML 5 video element
